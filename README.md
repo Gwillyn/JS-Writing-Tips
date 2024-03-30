@@ -6,4 +6,4 @@ variables can be numbers, strings, or multiple (with [])...
 Use 'document' to access html/css elements.  
 querySelector() is used to find a css selector as an argument and returns the first element that matches. To find h1: let h1 = document.querySelector("h1");... Note that h1 is a string for the CSS element  
   
-You can use let to dictate a variable, but often better is the const - it creates an error message, for example, if you happen to reassign a variable and forget. Const essentially leaves the variable unchanged forever, whereas 'let' variables can be reassigned.  
+You can use let to dictate a variable, but often better is the const - it creates an error message, for example, if you happen to reassign a variable and forget. Const essentially leaves the variable unchanged forever, whereas 'let' variables can be reassigned (hence why it would create an erro message uppon reassignment).  
