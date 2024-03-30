@@ -1,4 +1,6 @@
-# JS-Writing-Tips
+# JS-Writing-Tips  
+Check attached branches for small project demonstrations of concepts.  
+This repository is a personal archive and not meant as a document to be read by the public, which is why some parts may appear disjointed, incomprehensible, or not defined properly. The point of this repository is for me to come back and review concepts I think I might need refreshing.  
   
 camelCase - The first word is lowercase, every following word is uppercase...  
 variables can be numbers, strings, or multiple (with [])...  
