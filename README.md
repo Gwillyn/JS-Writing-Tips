@@ -50,5 +50,7 @@ Ternary operators can be used to make sure negative values are not returned.
   
                   **ternary operator**  
                   return s > 0 ? s : default_s  
-
   
+A ```while``` loop accepts a condition, and will run the code in the block up until the condition is no longer true.  
+A ```for``` loop runs for a specified number of times.
+    Syntax: ```for (a;b;c)``` where (a) is the initial expression and is executed only once and sets up the variable, (b) is the condition and is evaluated at every beginning of the loop (the loop will continue as long as this is true), and (c) is the final expression and is executed at the end of every loop.  
