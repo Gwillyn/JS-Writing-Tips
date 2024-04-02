@@ -18,7 +18,12 @@ variable.onlcick = function // this can customize what happens when you click on
   
 // This is a function:
 function buyHealth() {  
+  gold = gold - 10;  
+  health = health + 10;  
+}   
   
+//Compound Assignment can be used in the above function to make the code cleaner, turning gold = gold - 10 into gold -= 10. (See below code).  
+  function buyHealth() {  
+  gold -= 10;  
+  health += 10;  
 }  
-
-  
