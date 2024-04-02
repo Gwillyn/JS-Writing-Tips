@@ -33,3 +33,17 @@ Incrementing has a special operator: num++;
 There is the Math function, like Math.random() (which generates a random number from 0 (inclusive) to 1 (exclusive)) or Math.floor() (which rounds a given number down to the nearest integer)  
   
 The innerHTML property allows you to access or modify the content inside an HTML element using JavaScript  
+  
+Ternary operators can be used to make sure negative values are not returned.      
+    condition ? expressionIfTrue : expressionIfFalse  // this is like a one-line if/else statement     
+                 **if-else statement**  
+                  if (score > 0) {  
+                    return score  
+                    } else {  
+                    return default_score  
+                    }  
+
+                  **ternary operator**  
+                  return score > 0 ? score : default_score  
+    
+    
