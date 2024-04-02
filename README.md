@@ -36,14 +36,15 @@ The innerHTML property allows you to access or modify the content inside an HTML
   
 Ternary operators can be used to make sure negative values are not returned.      
     condition ? expressionIfTrue : expressionIfFalse  // this is like a one-line if/else statement     
+                
                  **if-else statement**  
-                  if (score > 0) {  
-                    return score  
+                  if (s > 0) {  
+                    return s   
                     } else {  
-                    return default_score  
+                    return default_s  
                     }  
-
+  
                   **ternary operator**  
-                  return score > 0 ? score : default_score  
-    
-    
+                  return s > 0 ? s : default_s  
+
+  
