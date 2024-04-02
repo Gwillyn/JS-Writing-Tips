@@ -27,3 +27,7 @@ function buyHealth() {
   gold -= 10;  
   health += 10;  
 }  
+  
+Incrementing has a special operator: num++;  
+  
+There is the Math function, like Math.random() (which generates a random number from 0 (inclusive) to 1 (exclusive)) or Math.floor() (which rounds a given number down to the nearest integer)  
