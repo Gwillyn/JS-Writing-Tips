@@ -5,6 +5,10 @@ This repository is a personal archive and not meant as a document to be read by 
 camelCase - The first word is lowercase, every following word is uppercase...  
 variables can be numbers, strings, or multiple (with [])...  
   
+JS uses 0-indexing, meaning variables begin at 0 and go up (0, 1, 2, 3...). This is important to remember.  
+  
+There is dot.text and bracket text. Here is dot.text to call for a variable (location.text). Here is bracket[] text to call for one (location["button text"][0]), where the 0 indicates the first variable of the array you're calling for.  
+    
 Use 'document' to access html/css elements.  
 querySelector() is used to find a css selector as an argument and returns the first element that matches. To find h1: let h1 = document.querySelector("h1");... Note that h1 is a string for the CSS element  
   
@@ -16,4 +20,5 @@ variable.onlcick = function // this can customize what happens when you click on
 function buyHealth() {  
   
 }  
+
   
