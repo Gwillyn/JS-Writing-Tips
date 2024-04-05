@@ -60,5 +60,5 @@ A ```for``` loop runs for a specified number of times.
       if (!['+', '-', ' '].includes(sArray[i])) {  
         bArray.push(sArray[i]);  
       }  
-    }  
+    }  // this loop checks if i is below the length of sArray, and gets increased by 1. if the (+, -, ' ') are NOT (!) included in sArray with intiger i, it is pushed into bArray.
 ```
