@@ -69,4 +69,10 @@ Regular expressions are used to match character combinations in strings. So, for
   const regex = /e/g;  //This will find every 'e' globally (with the g flag). 
   const regex = /e/i;  //This will make the e case insensitive (so e, or E). 
 ```
-  Regular expressions are used in some JS methods, like match() - which will find any matching results and return an array.
+  Regular expressions are used in some JS methods, like match() - which will find any matching results and return an array.  
+
+  Template literals ```${}``` can allow for direct insertions of variable values in strings. Instead of quotes for the string, you must use back-ticks. The below example would output the string "My name is Gwillyn.":  
+      ```  
+      const name = "Gwillyn"
+      const myNameText = `My name is ${name}.`
+      ```  
