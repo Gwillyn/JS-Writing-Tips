@@ -62,3 +62,10 @@ A ```for``` loop runs for a specified number of times.
       }  
     }  // this loop checks if i is below the length of sArray, and gets increased by 1. if the (+, -, ' ') are NOT (!) included in sArray with intiger i, it is pushed into bArray.
 ```
+
+Regular expressions are used to match character combinations in strings. So, for example: 
+```
+  const regex = /e/;  //This will be for every 'e' found in the string.
+  const regex = /e/g;  //This will find every 'e' globally (with the g flag). 
+  const regex = /e/i;  //This will make the e case insensitive (so e, or E). 
+```
