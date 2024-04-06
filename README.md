@@ -73,6 +73,9 @@ Regular expressions are used to match character combinations in strings. So, for
 
   Template literals ```${}``` can allow for direct insertions of variable values in strings. Instead of quotes for the string, you must use back-ticks. The below example would output the string "My name is Gwillyn.":  
       ```  
-      const name = "Gwillyn"
-      const myNameText = `My name is ${name}.`
+      const name = "Gwillyn"  
+      const myNameText = `My name is ${name}.`  
       ```  
+A NodeList allows you to access the elements using bracket notation and acts like an array.  
+
+Much like the onclick function, another interactive addition is the event listener.  
