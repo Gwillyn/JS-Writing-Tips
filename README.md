@@ -78,4 +78,6 @@ Regular expressions are used to match character combinations in strings. So, for
       ```  
 A NodeList allows you to access the elements using bracket notation and acts like an array.  
 
-Much like the onclick function, another interactive addition is the event listener.  
+Much like the onclick function, another interactive addition is the event listener.    
+
+Compare callback functions are 
