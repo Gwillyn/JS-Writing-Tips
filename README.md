@@ -94,4 +94,4 @@ const callStack = [
 'b(): returns "is " + c()',  
 'c(): returns "cool"'  ];
 ```
-The a() is at the bottom or beginning of the stack, which calls b() in the middle, which calls c() at the top or end. When c() executes, it returns the string "awesome!", and is popped off/removed from the top of the stack.
+The a() function is at the bottom or beginning of the stack, which calls b() in the middle, which calls c() at the tippy top. When c() executes, it returns the string "awesome!", and is popped off/removed from the top of the stack.
