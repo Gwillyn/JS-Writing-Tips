@@ -79,5 +79,8 @@ Regular expressions are used to match character combinations in strings. So, for
 A NodeList allows you to access the elements using bracket notation and acts like an array.  
 
 Much like the onclick function, another interactive addition is the event listener.    
-
-Compare callback functions are 
+  
+Compare callback functions are   
+  
+  
+using ```return``` at the end of statements, functions, etc (especially if statements) is important if you want the function to stop there and not compute the rest of the code in it.  
