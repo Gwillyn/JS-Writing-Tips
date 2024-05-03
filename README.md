@@ -84,3 +84,14 @@ Compare callback functions are
   
   
 using ```return``` at the end of statements, functions, etc (especially if statements) is important if you want the function to stop there and not compute the rest of the code in it.  
+
+stack is a data structure where items are stored in a last-in-first-out (LIFO) manner. The last book you add to a stack of books is the first book you can take off.   
+  The 'call stack' is a collection of function calls stored in a stack structure, like the books. Added functions are put on the top of the stack. It is removed from the top/end of the stack when it is returned.  
+  in this array: 	  
+```
+const callStack = [  
+'a(): returns "Gwillyn " + b()',  
+'b(): returns "is " + c()',  
+'c(): returns "cool"'  ];
+```
+The a() is at the bottom or beginning of the stack, which calls b() in the middle, which calls c() at the top or end. When c() executes, it returns the string "awesome!", and is popped off/removed from the top of the stack.
