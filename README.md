@@ -1,21 +1,23 @@
 # JS-Writing-Tips  
 Check attached branches for small project demonstrations of concepts.  
 This repository is a personal archive and not meant as a document to be read by the public, which is why some parts may appear disjointed, incomprehensible, or not defined properly. The point of this repository is for me to come back and review concepts I think I might need refreshing.  
-  
+
+#Cases
 camelCase - The first word is lowercase, every following word is uppercase...  
 variables can be numbers, strings, or multiple (with [])...  
-  
+# Javascript Indexing 
 JS uses 0-indexing, meaning variables begin at 0 and go up (0, 1, 2, 3...). This is important to remember.  
   
 There is dot.text and bracket text. Here is dot.text to call for a variable (location.text). Here is bracket[] text to call for one (```location["button text"][0]```), where the 0 indicates the first variable of the array you're calling for.  
-    
+# Accessing external files (HTML, CSS, etc)
 Use 'document' to access html/css elements.  
 ```querySelector()``` is used to find a css selector as an argument and returns the first element that matches. To find h1: ```let h1 = document.querySelector("h1");```... Note that h1 is a string for the CSS element  
-  
+The innerHTML property allows you to access or modify the content inside an HTML element using JavaScript  
+# Variables
 You can use let to dictate a variable, but often better is the const - it creates an error message, for example, if you happen to reassign a variable and forget. Const essentially leaves the variable unchanged forever, whereas 'let' variables can be reassigned (hence why it would create an erro message uppon reassignment).  
 
 variable.onlcick = function // this can customize what happens when you click on the element (usually a button)  
-  
+# Functions 
 This is a function:
 ```
 function buyHealth() {  
@@ -31,13 +33,12 @@ Compound Assignment can be used in the above function to make the code cleaner, 
   health += 10;  
 }  
 ```
-
+# Incrementing
 Incrementing has a special operator: num++;  
   
 There is the Math function, like Math.random() (which generates a random number from 0 (inclusive) to 1 (exclusive)) or Math.floor() (which rounds a given number down to the nearest integer)  
-  
-The innerHTML property allows you to access or modify the content inside an HTML element using JavaScript  
-  
+    
+# Ternary Operators
 Ternary operators can be used to make sure negative values are not returned.      
     ```condition ? expressionIfTrue : expressionIfFalse```  // this is like a one-line if/else statement     
                 
@@ -50,7 +51,7 @@ Ternary operators can be used to make sure negative values are not returned.
   
                   **ternary operator**  
                   return s > 0 ? s : default_s  
-  
+# Loops!
 A ```while``` loop accepts a condition, and will run the code in the block up until the condition is no longer true.  
 A ```for``` loop runs for a specified number of times.
     Syntax: ```for (a;b;c)``` where (a) is the initial expression and is executed only once and sets up the variable, (b) is the condition and is evaluated at every beginning of the loop (the loop will continue as long as this is true), and (c) is the final expression and is executed at the end of every loop.  
@@ -62,7 +63,7 @@ A ```for``` loop runs for a specified number of times.
       }  
     }  // this loop checks if i is below the length of sArray, and gets increased by 1. if the (+, -, ' ') are NOT (!) included in sArray with intiger i, it is pushed into bArray.
 ```
-
+# REGEX (Regular Expressions)
 Regular expressions are used to match character combinations in strings. So, for example: 
 ```
   const regex = /e/;  //This will be for every 'e' found in the string.
@@ -70,21 +71,23 @@ Regular expressions are used to match character combinations in strings. So, for
   const regex = /e/i;  //This will make the e case insensitive (so e, or E). 
 ```
   Regular expressions are used in some JS methods, like match() - which will find any matching results and return an array.  
-
+#Template Literals
   Template literals ```${}``` can allow for direct insertions of variable values in strings. Instead of quotes for the string, you must use back-ticks. The below example would output the string "My name is Gwillyn.":  
       ```  
       const name = "Gwillyn"  
       const myNameText = `My name is ${name}.`  
       ```  
+# NodeLists
 A NodeList allows you to access the elements using bracket notation and acts like an array.  
 
 Much like the onclick function, another interactive addition is the event listener.    
-  
+# Compare Callback functions
 Compare callback functions are   
   
-  
+# Returns 
 using ```return``` at the end of statements, functions, etc (especially if statements) is important if you want the function to stop there and not compute the rest of the code in it.  
 
+# Call Stacks
 stack is a data structure where items are stored in a last-in-first-out (LIFO) manner. The last book you add to a stack of books is the first book you can take off.   
   The 'call stack' is a collection of function calls stored in a stack structure, like the books. Added functions are put on the top of the stack. It is removed from the top/end of the stack when it is returned.  
   in this array: 	  
@@ -94,4 +97,6 @@ const callStack = [
 'b(): returns "is " + c()',  
 'c(): returns "cool"'  ];
 ```
-The a() function is at the bottom or beginning of the stack, which calls b() in the middle, which calls c() at the tippy top. When c() executes, it returns the string "awesome!", and is popped off/removed from the top of the stack.
+The a() function is at the bottom or beginning of the stack, which calls b() in the middle, which calls c() at the tippy top. When c() executes, it returns the string "awesome!", and is popped off/removed from the top of the stack.  
+Recursive functions calls itself over and over. Therefore, it is a good idea to write a _base case_ to allow for the function to stop calling itself, and it is a good idea to write it first. The recursive case is where the function calls itself. When writing the recursive case, you need to ask **1.** What is the base case? and **2.** What is the least work needed to get closer to the base case?  
+
