@@ -97,6 +97,6 @@ const callStack = [
 'b(): returns "is " + c()',  
 'c(): returns "cool"'  ];
 ```
-The a() function is at the bottom or beginning of the stack, which calls b() in the middle, which calls c() at the tippy top. When c() executes, it returns the string "awesome!", and is popped off/removed from the top of the stack.  
+The a() function is at the bottom or beginning of the stack, which calls b() in the middle, which calls c() at the tippy top. When c() executes, it returns the string "cool", and is popped off/removed from the top of the stack.  
 Recursive functions calls itself over and over. Therefore, it is a good idea to write a _base case_ to allow for the function to stop calling itself, and it is a good idea to write it first. The recursive case is where the function calls itself. When writing the recursive case, you need to ask **1.** What is the base case? and **2.** What is the least work needed to get closer to the base case?  
 
