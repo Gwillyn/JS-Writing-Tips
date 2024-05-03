@@ -1,8 +1,8 @@
-# JS-Writing-Tips  
+# Javascript learned knowledge  
 Check attached branches for small project demonstrations of concepts.  
-This repository is a personal archive and not meant as a document to be read by the public, which is why some parts may appear disjointed, incomprehensible, or not defined properly. The point of this repository is for me to come back and review concepts I think I might need refreshing.  
+This repository is a personal archive for concepts and parts I've learned in javascript. Many parts may appear disjointed, incomprehensible, or not defined properly. This is because it is meant for me to read, so I can quickly get refreshed on ideas I learned previosuly. The point of this repository is for me to come back and review concepts. 
 
-#Cases
+# Cases
 camelCase - The first word is lowercase, every following word is uppercase...  
 variables can be numbers, strings, or multiple (with [])...  
 # Javascript Indexing 
