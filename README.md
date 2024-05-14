@@ -74,6 +74,7 @@ Regular expressions are used to match character combinations in strings. So, for
   Regular expressions are used in some JS methods, like match() - which will find any matching results and return an array.  
   ```[]``` will create character classes, so ```/fr[e3][e3]``` will match free, or fr33, or fre3, or fr3e.  
   the alternate operator ```|``` allows different things. ```/million|billion|trillion/``` will match million, or billion, or trillion.  
+  ```\s``` is a meta tag for checking spaces. So ```/\shello\s/``` will check for spaces before and after 'hello'.  
 #Template Literals
   Template literals ```${}``` can allow for direct insertions of variable values in strings. Instead of quotes for the string, you must use back-ticks. The below example would output the string "My name is Gwillyn.":  
       ```  
