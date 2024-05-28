@@ -107,3 +107,19 @@ Recursive functions calls itself over and over. Therefore, it is a good idea to 
 # Spread operator 
 ```(...)``` allows for an iterable to be expanded where functions or elements are expected. 
 
+# Sorting Algorithms 
+**Bubble Sort:**  
+Through an array, iterating through every element and bubbling the (in the example) smallest number toward the start and the bigger number to the end.  
+```
+const bubbleSort = (list) => {  
+  for (let i = 0; i < list.length; i++) {  
+    for (let j = 0; j < list.length - 1; j++) {  
+      if (list[j] > list[j + 1]) {  
+        const temp = list[j];  
+        list[j] = list[j + 1];  
+        list[j + 1] = temp;  
+      }  
+    }  
+```
+
+
