@@ -119,7 +119,27 @@ const bubbleSort = (list) => {
         list[j] = list[j + 1];  
         list[j + 1] = temp;  
       }  
-    }  
+    }
+return list
+}
 ```
-
+**Selection Sort**  
+Through an array, it relies on tracking the index of the smallest value.   
+```
+const selectionSort = (list) => {
+  for (let i = 0; i < list.length; i++) {
+    let minimumIndex = i;
+    for (let j = i + 1; j < list.length; j++) {
+      if (list[j] < list[minimumIndex]) {
+        minimumIndex = j;
+      }
+    }
+    const temp = list[i];
+    list[i] = list[minimumIndex];
+    list[minimumIndex] = temp;
+  }
+  return list
+}
+```
+ 
 
