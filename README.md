@@ -123,7 +123,7 @@ const bubbleSort = (list) => {
 return list
 }
 ```
-**Selection Sort**  
+**Selection Sort:**  
 Through an array, it relies on tracking the index of the smallest value.   
 ```
 const selectionSort = (list) => {
@@ -141,5 +141,7 @@ const selectionSort = (list) => {
   return list
 }
 ```
- 
+**Insertion Sort:**  
+Through an array, it builds up an assorted array from the beginning of the list.  
+
 
