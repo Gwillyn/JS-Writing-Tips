@@ -143,5 +143,8 @@ const selectionSort = (list) => {
 ```
 **Insertion Sort:**  
 Through an array, it builds up an assorted array from the beginning of the list.  
+starts at the beginning of the list (the first element is already sorted), and uses a ```while``` loop.  
+This ```while``` loop needs two conditions met: it shoult not run beyond the beginning of the array, and the loop should not run after the finding of a value smaller than the current one.  
+
 
 
