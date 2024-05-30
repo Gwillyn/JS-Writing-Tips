@@ -108,6 +108,8 @@ Recursive functions calls itself over and over. Therefore, it is a good idea to 
 ```(...)``` allows for an iterable to be expanded where functions or elements are expected. 
 
 # Sorting Algorithms 
+```.sort()``` can sort in itself, but it is somewhat limiting as it converts ints to strings which can complicate things. To get past this, passing a function into the ```.sort()``` method. This function will return a number which will determine how the elements are sorted. If the number is positive, return a before b, if it is negative return b before a, and the return of zero will keep the current placements. 
+  
 **Bubble Sort:**  
 Through an array, iterating through every element and bubbling the (in the example) smallest number toward the start and the bigger number to the end.  
 ```
