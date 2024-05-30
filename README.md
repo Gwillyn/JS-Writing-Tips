@@ -145,6 +145,20 @@ const selectionSort = (list) => {
 Through an array, it builds up an assorted array from the beginning of the list.  
 starts at the beginning of the list (the first element is already sorted), and uses a ```while``` loop.  
 This ```while``` loop needs two conditions met: it shoult not run beyond the beginning of the array, and the loop should not run after the finding of a value smaller than the current one.  
+```
+const insertionSort = (list) => {
+  for (let i = 1; i < list.length; i++) {
+    const currentValue = list[i];
+    let j = i - 1;
+    while (j >= 0 && list[j] > currentValue) {
+      list[j + 1] = list[j];
+      j--;
+    }
+    list[j + 1] = currentValue;
+  }
+  return list
+}
+```
 
 
 
