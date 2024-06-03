@@ -12,6 +12,7 @@ JS uses 0-indexing, meaning variables begin at 0 and go up (0, 1, 2, 3...). This
 There is dot.text and bracket text. Here is dot.text to call for a variable (location.text). Here is bracket[] text to call for one (```location["button text"][0]```), where the 0 indicates the first variable of the array you're calling for.  
 # Syntax
 ```.split()``` takes a string and splits it into an array of strings. What you put into the method counts as the separator, or multiple separators (with commas).  
+```.map()``` takes a callback function as its first argument, and goes through each element of the attached array with that function in mind.  
 # Accessing external files (HTML, CSS, etc)
 Use 'document' to access html/css elements.  
 ```querySelector()``` is used to find a css selector as an argument and returns the first element that matches. To find h1: ```let h1 = document.querySelector("h1");```... Note that h1 is a string for the CSS element  
