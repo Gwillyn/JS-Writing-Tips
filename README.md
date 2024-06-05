@@ -14,6 +14,8 @@ There is dot.text and bracket text. Here is dot.text to call for a variable (loc
 ```.split()``` takes a string and splits it into an array of strings. What you put into the method counts as the separator, or multiple separators (with commas).  
 ```.map()``` takes a callback function as its first argument, and goes through each element of the attached array with that function in mind.  
 ```.filter()``` takes a callback function as its first argument and needs to return a boolean value.  
+```isNaN()``` returns ```true``` if the element is found to be NaN.  
+```.reduce()``` takes all numbers in an array and makes them one value.  
 # Accessing external files (HTML, CSS, etc)
 Use 'document' to access html/css elements.  
 ```querySelector()``` is used to find a css selector as an argument and returns the first element that matches. To find h1: ```let h1 = document.querySelector("h1");```... Note that h1 is a string for the CSS element  
