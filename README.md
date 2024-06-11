@@ -1,4 +1,4 @@
-# Javascript Writing Tips  
+# Javascript Writing Help
 Check attached branches for small project demonstrations of concepts.  
 This repository is a personal archive for concepts and parts I've learned in javascript. Many parts may appear disjointed, incomprehensible, or not defined properly. This is because it is meant for me to read, so I can quickly get refreshed on ideas I learned previosuly. The point of this repository is for me to come back and review concepts. 
 # Javascript 
