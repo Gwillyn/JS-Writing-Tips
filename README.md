@@ -112,7 +112,8 @@ Recursive functions calls itself over and over. Therefore, it is a good idea to 
 
 # Spread operator 
 ```(...)``` allows for an iterable to be expanded where functions or elements are expected. 
-
+# Arrays
+This is how to find the middle index of an array with an odd number of elements: ```arrayExample[Math.floor(arr.length / 2)]```. 
 # Sorting Algorithms 
 ```.sort()``` can sort in itself, but it is somewhat limiting as it converts ints to strings which can complicate things. To get past this, passing a function into the ```.sort()``` method. This function will return a number which will determine how the elements are sorted. If the number is positive, return a before b, if it is negative return b before a, and the return of zero will keep the current placements. This can all be done with a single return statement with a subtraction of a and b.
 ```
